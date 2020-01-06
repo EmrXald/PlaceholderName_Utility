@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Entity Component System">
+      <UniqueIdentifier>{9539777e-4601-4c4a-a898-52080586bd5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialisation">
+      <UniqueIdentifier>{467c7517-e127-4c68-9f0b-1b7f979ce3e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetworkMessaging">
+      <UniqueIdentifier>{0b0bdeed-8b3e-47a2-8b0b-5308feec65e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{692c4539-7248-4908-ae26-a5a0e701ef59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{0613b3a3-fd03-4160-bf8a-fdc4dbf3c65f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Template Utility">
+      <UniqueIdentifier>{d8653379-e1e8-47bc-8c30-6d5a8fcd2c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Container">
+      <UniqueIdentifier>{e6a7a240-db94-4f6e-b885-a3e460f43804}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonUtilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Quaternion.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Transform3D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySerialiser.h">
+      <Filter>Serialisation</Filter>
+    </ClInclude>
+    <ClInclude Include="StopWatch.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureTests.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionPointer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateUtility\ChooseType.h">
+      <Filter>Template Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateUtility\CompileTimeTypeInformation.h">
+      <Filter>Template Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateUtility\RuntimeTypeInformation.h">
+      <Filter>Template Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateUtility\TemplateUtility.h">
+      <Filter>Template Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateUtility\TypeFamily.h">
+      <Filter>Template Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateUtility\TypeInformation.h">
+      <Filter>Template Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateUtility\TypeTraits.h">
+      <Filter>Template Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkDefinitions.h">
+      <Filter>NetworkMessaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkMessageBase.h">
+      <Filter>NetworkMessaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkMessageGeneric.h">
+      <Filter>NetworkMessaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkMessageTerminal.h">
+      <Filter>NetworkMessaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\CommonMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix3x3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix4x4.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Quaternion.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Transform3D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4_Intrinsic_Tests.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\VectorFunctions.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Container\DoubleBuffer.h">
+      <Filter>Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Container\IntroSort.h">
+      <Filter>Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Container\ObjectPool.h">
+      <Filter>Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Container\OpaqueDictionary.h">
+      <Filter>Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Container\SoAC.h">
+      <Filter>Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Container\SoACUtilities.h">
+      <Filter>Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Container\SparseSet.h">
+      <Filter>Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Container\SparseVector.h">
+      <Filter>Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Container\UniqueTypeMap.h">
+      <Filter>Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity Component System\ComponentRegistry.h">
+      <Filter>Entity Component System</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity Component System\EntityRegistry.h">
+      <Filter>Entity Component System</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
