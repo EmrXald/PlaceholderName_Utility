@@ -34,13 +34,7 @@
     <ClCompile Include="CommonUtilities.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Math\Quaternion.cpp">
-      <Filter>Math</Filter>
-    </ClCompile>
-    <ClCompile Include="Math\Transform3D.cpp">
-      <Filter>Math</Filter>
-    </ClCompile>
-    <ClCompile Include="Timer.cpp">
+    <ClCompile Include="Clock.cpp">
       <Filter>Time</Filter>
     </ClCompile>
   </ItemGroup>
@@ -93,44 +87,8 @@
     <ClInclude Include="Network\NetworkMessageTerminal.h">
       <Filter>NetworkMessaging</Filter>
     </ClInclude>
-    <ClInclude Include="Math\CommonMath.h">
-      <Filter>Math</Filter>
-    </ClInclude>
-    <ClInclude Include="Math\Matrix.hpp">
-      <Filter>Math</Filter>
-    </ClInclude>
-    <ClInclude Include="Math\Matrix3x3.hpp">
-      <Filter>Math</Filter>
-    </ClInclude>
-    <ClInclude Include="Math\Matrix4x4.hpp">
-      <Filter>Math</Filter>
-    </ClInclude>
-    <ClInclude Include="Math\Quaternion.h">
-      <Filter>Math</Filter>
-    </ClInclude>
-    <ClInclude Include="Math\Transform3D.h">
-      <Filter>Math</Filter>
-    </ClInclude>
-    <ClInclude Include="Math\Vector.hpp">
-      <Filter>Math</Filter>
-    </ClInclude>
-    <ClInclude Include="Math\Vector2.hpp">
-      <Filter>Math</Filter>
-    </ClInclude>
-    <ClInclude Include="Math\Vector3.hpp">
-      <Filter>Math</Filter>
-    </ClInclude>
-    <ClInclude Include="Math\Vector4.hpp">
-      <Filter>Math</Filter>
-    </ClInclude>
     <ClInclude Include="Math\Vector4_Intrinsic_Tests.h">
       <Filter>Math</Filter>
-    </ClInclude>
-    <ClInclude Include="Math\VectorFunctions.h">
-      <Filter>Math</Filter>
-    </ClInclude>
-    <ClInclude Include="Timer.h">
-      <Filter>Time</Filter>
     </ClInclude>
     <ClInclude Include="Container\DoubleBuffer.h">
       <Filter>Container</Filter>
@@ -164,6 +122,9 @@
     </ClInclude>
     <ClInclude Include="Entity Component System\EntityRegistry.h">
       <Filter>Entity Component System</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>Time</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

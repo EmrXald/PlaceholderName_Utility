@@ -177,18 +177,7 @@
     <ClInclude Include="Entity Component System\EntityRegistry.h" />
     <ClInclude Include="FeatureTests.h" />
     <ClInclude Include="FunctionPointer.h" />
-    <ClInclude Include="Math\CommonMath.h" />
-    <ClInclude Include="Math\Matrix.hpp" />
-    <ClInclude Include="Math\Matrix3x3.hpp" />
-    <ClInclude Include="Math\Matrix4x4.hpp" />
-    <ClInclude Include="Math\Quaternion.h" />
-    <ClInclude Include="Math\Transform3D.h" />
-    <ClInclude Include="Math\Vector.hpp" />
-    <ClInclude Include="Math\Vector2.hpp" />
-    <ClInclude Include="Math\Vector3.hpp" />
-    <ClInclude Include="Math\Vector4.hpp" />
     <ClInclude Include="Math\Vector4_Intrinsic_Tests.h" />
-    <ClInclude Include="Math\VectorFunctions.h" />
     <ClInclude Include="Network\NetworkDefinitions.h" />
     <ClInclude Include="Network\NetworkMessageBase.h" />
     <ClInclude Include="Network\NetworkMessageGeneric.h" />
@@ -202,19 +191,17 @@
     <ClInclude Include="TemplateUtility\TypeFamily.h" />
     <ClInclude Include="TemplateUtility\TypeInformation.h" />
     <ClInclude Include="TemplateUtility\TypeTraits.h" />
-    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Clock.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CommonUtilities.cpp" />
-    <ClCompile Include="Math\Quaternion.cpp" />
-    <ClCompile Include="Math\Transform3D.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="Clock.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

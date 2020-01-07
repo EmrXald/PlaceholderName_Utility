@@ -1,5 +1,5 @@
 #include "pch.h"
-#include "Timer.h"
+#include "Clock.h"
 
 CommonUtility::Clock::Clock()
 {
