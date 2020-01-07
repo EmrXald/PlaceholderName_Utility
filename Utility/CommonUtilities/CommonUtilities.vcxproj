@@ -177,6 +177,7 @@
     <ClInclude Include="Entity Component System\EntityRegistry.h" />
     <ClInclude Include="FeatureTests.h" />
     <ClInclude Include="FunctionPointer.h" />
+    <ClInclude Include="Math\CommonMath.h" />
     <ClInclude Include="Math\Vector4_Intrinsic_Tests.h" />
     <ClInclude Include="Network\NetworkDefinitions.h" />
     <ClInclude Include="Network\NetworkMessageBase.h" />

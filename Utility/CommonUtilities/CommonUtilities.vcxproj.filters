@@ -126,5 +126,8 @@
     <ClInclude Include="Clock.h">
       <Filter>Time</Filter>
     </ClInclude>
+    <ClInclude Include="Math\CommonMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
