@@ -164,10 +164,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BinarySerialiser.h" />
-    <ClInclude Include="Container\DoubleBuffer.h" />
     <ClInclude Include="Container\IntroSort.h" />
-    <ClInclude Include="Container\ObjectPool.h" />
-    <ClInclude Include="Container\OpaqueDictionary.h" />
     <ClInclude Include="Container\SoAC.h" />
     <ClInclude Include="Container\SoACUtilities.h" />
     <ClInclude Include="Container\SparseSet.h" />

@@ -90,16 +90,7 @@
     <ClInclude Include="Math\Vector4_Intrinsic_Tests.h">
       <Filter>Math</Filter>
     </ClInclude>
-    <ClInclude Include="Container\DoubleBuffer.h">
-      <Filter>Container</Filter>
-    </ClInclude>
     <ClInclude Include="Container\IntroSort.h">
-      <Filter>Container</Filter>
-    </ClInclude>
-    <ClInclude Include="Container\ObjectPool.h">
-      <Filter>Container</Filter>
-    </ClInclude>
-    <ClInclude Include="Container\OpaqueDictionary.h">
       <Filter>Container</Filter>
     </ClInclude>
     <ClInclude Include="Container\SoAC.h">
